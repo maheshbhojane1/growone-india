@@ -1,0 +1,204 @@
+.hero {
+  min-height: 100vh;
+  padding-top: 72px;
+  background: linear-gradient(160deg, var(--green-900) 0%, var(--green-800) 45%, #1d4a2a 100%);
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.bgGrid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(93, 194, 130, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(93, 194, 130, 0.04) 1px, transparent 1px);
+  background-size: 50px 50px;
+  pointer-events: none;
+}
+
+.bgLeaves {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18rem;
+  opacity: 0.05;
+  user-select: none;
+  pointer-events: none;
+  line-height: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  max-width: 640px;
+  padding: 40px 0;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(93, 194, 130, 0.15);
+  border: 1px solid rgba(93, 194, 130, 0.3);
+  color: var(--green-300);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 6px 16px;
+  border-radius: 20px;
+  margin-bottom: 24px;
+}
+
+.badgeDot {
+  width: 6px;
+  height: 6px;
+  background: var(--green-400);
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.heading {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2.6rem, 5vw, 4rem);
+  font-weight: 700;
+  color: white;
+  line-height: 1.18;
+  margin-bottom: 20px;
+}
+
+.heading em {
+  font-style: normal;
+  color: var(--green-400);
+}
+
+.subText {
+  font-size: 1.02rem;
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.75;
+  margin-bottom: 36px;
+  max-width: 520px;
+}
+
+.btns {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 48px;
+}
+
+.btnPrimary {
+  background: var(--green-500);
+  color: white;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 40px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.btnPrimary:hover {
+  background: var(--green-400);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(56, 166, 99, 0.4);
+}
+
+.btnOutline {
+  background: transparent;
+  color: white;
+  border: 1.5px solid rgba(255, 255, 255, 0.35);
+  padding: 13px 30px;
+  border-radius: 40px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.btnOutline:hover {
+  border-color: var(--green-400);
+  color: var(--green-300);
+}
+
+.stats {
+  display: flex;
+  gap: 28px;
+  padding-top: 32px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  flex-wrap: wrap;
+}
+
+.statNum {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--green-400);
+  line-height: 1;
+}
+
+.statLbl {
+  font-size: 0.76rem;
+  color: rgba(255, 255, 255, 0.55);
+  margin-top: 4px;
+}
+
+/* Float card — right side */
+.floatCard {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(93, 194, 130, 0.25);
+  border-radius: 20px;
+  padding: 28px;
+  backdrop-filter: blur(10px);
+}
+
+.floatCard h3 {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-size: 1.15rem;
+  margin-bottom: 16px;
+}
+
+.featurePill {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  margin-bottom: 8px;
+  border: 1px solid rgba(93, 194, 130, 0.1);
+}
+
+.pillIcon {
+  font-size: 1.2rem;
+}
+
+.pillText {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.86rem;
+}
+
+@media (max-width: 1000px) {
+  .floatCard { display: none; }
+  .content { max-width: 100%; }
+}
+
+@media (max-width: 600px) {
+  .stats { gap: 16px; }
+  .heading { font-size: 2.4rem; }
+}

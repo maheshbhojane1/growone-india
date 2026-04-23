@@ -1,0 +1,41 @@
+.strip {
+  background: var(--green-900);
+  padding: 18px 0;
+  overflow: hidden;
+  border-top: 1px solid rgba(93, 194, 130, 0.1);
+  border-bottom: 1px solid rgba(93, 194, 130, 0.1);
+}
+
+.track {
+  display: flex;
+  gap: 48px;
+  animation: marquee 22s linear infinite;
+  width: max-content;
+}
+
+.track:hover {
+  animation-play-state: paused;
+}
+
+.item {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.item::after {
+  content: '✦';
+  color: var(--green-500);
+  font-size: 0.6rem;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}

@@ -1,0 +1,219 @@
+.wrap {
+  padding: 60px 5% 80px;
+  background: var(--cream);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 56px;
+  align-items: start;
+}
+
+.imgBox {
+  border-radius: 20px;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgEmoji {
+  font-size: 9rem;
+}
+
+.glanceBox {
+  margin-top: 20px;
+  padding: 18px;
+  background: var(--green-100);
+  border-radius: var(--radius);
+}
+
+.glanceTitle {
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: var(--green-800);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.glanceGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.glancePill {
+  background: var(--white);
+  padding: 7px 10px;
+  border-radius: 7px;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--green-800);
+}
+
+.stars {
+  color: var(--gold);
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  margin-bottom: 4px;
+}
+
+.ratingCount {
+  font-size: 0.82rem;
+  color: var(--text-mid);
+  margin-bottom: 18px;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--green-700);
+  margin-bottom: 6px;
+}
+
+.price sub {
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 0;
+  border-bottom: 2px solid var(--green-100);
+  margin: 28px 0 20px;
+}
+
+.tab {
+  padding: 10px 20px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  background: none;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  transition: all 0.2s;
+  color: var(--text-mid);
+  font-family: 'DM Sans', sans-serif;
+}
+
+.tabActive {
+  border-bottom-color: var(--green-500);
+  color: var(--green-700);
+}
+
+.tabContent {
+  font-size: 0.88rem;
+  color: var(--text-mid);
+  line-height: 1.7;
+  min-height: 100px;
+}
+
+.howList {
+  padding-left: 18px;
+}
+
+.howList li {
+  margin-bottom: 8px;
+}
+
+.specsTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.specsTable tr {
+  border-bottom: 1px solid var(--green-100);
+}
+
+.specsTable td {
+  padding: 10px 4px;
+  font-size: 0.84rem;
+}
+
+.specKey {
+  color: var(--text-mid);
+  font-weight: 500;
+  width: 45%;
+}
+
+/* Purchase */
+.purchase {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--green-100);
+}
+
+.qtyLabel {
+  font-size: 0.82rem;
+  color: var(--text-mid);
+  margin-bottom: 10px;
+}
+
+.qtyControl {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.qtyBtn {
+  width: 34px;
+  height: 34px;
+  background: var(--green-100);
+  border: none;
+  border-radius: 50%;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--green-800);
+  transition: all 0.2s;
+}
+
+.qtyBtn:hover {
+  background: var(--green-500);
+  color: white;
+}
+
+.qtyNum {
+  font-weight: 700;
+  font-size: 1.1rem;
+  min-width: 24px;
+  text-align: center;
+}
+
+.qtyUnit {
+  font-size: 0.82rem;
+  color: var(--text-mid);
+}
+
+.ctaRow {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.addToCart {
+  background: var(--green-600);
+  color: white;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 40px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: 'DM Sans', sans-serif;
+  transition: all 0.2s;
+}
+
+.addToCart:hover {
+  background: var(--green-500);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 900px) {
+  .grid { grid-template-columns: 1fr; }
+}

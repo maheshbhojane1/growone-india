@@ -1,0 +1,152 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: rgba(13, 46, 26, 0.97);
+  backdrop-filter: blur(12px);
+  padding: 0 5%;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(93, 194, 130, 0.15);
+  transition: box-shadow 0.3s;
+}
+
+.scrolled {
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.logoIcon {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, var(--green-500), var(--green-400));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.logoText {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: white;
+  line-height: 1.1;
+}
+
+.logoText span {
+  font-size: 0.62rem;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  color: var(--green-300);
+  display: block;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.links {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.link,
+.linkBtn {
+  color: rgba(255, 255, 255, 0.82);
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 7px 13px;
+  border-radius: 20px;
+  transition: all 0.2s;
+  cursor: pointer;
+  letter-spacing: 0.3px;
+  background: transparent;
+  border: none;
+  font-family: 'DM Sans', sans-serif;
+  white-space: nowrap;
+}
+
+.link:hover,
+.linkBtn:hover {
+  background: rgba(93, 200, 130, 0.15);
+  color: var(--green-300);
+}
+
+.cta {
+  background: var(--green-500) !important;
+  color: white !important;
+  padding: 7px 16px !important;
+}
+
+.cta:hover {
+  background: var(--green-400) !important;
+}
+
+/* Hamburger */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 4px;
+}
+
+.hamburger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: white;
+  border-radius: 2px;
+  transition: all 0.3s;
+}
+
+@media (max-width: 900px) {
+  .links {
+    display: none;
+    position: absolute;
+    top: 72px;
+    left: 0;
+    right: 0;
+    background: var(--green-900);
+    flex-direction: column;
+    align-items: stretch;
+    padding: 16px 5%;
+    gap: 4px;
+    border-bottom: 1px solid rgba(93, 194, 130, 0.15);
+  }
+
+  .links.open {
+    display: flex;
+  }
+
+  .link,
+  .linkBtn {
+    text-align: left;
+    padding: 12px 14px;
+    border-radius: var(--radius-sm);
+  }
+
+  .cta {
+    text-align: center !important;
+    margin-top: 4px;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}

@@ -1,0 +1,110 @@
+.card {
+  background: var(--white);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: all 0.3s;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-hover);
+}
+
+.imgBox {
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.emoji {
+  font-size: 5rem;
+}
+
+.badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: var(--green-500);
+  color: white;
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 20px;
+  letter-spacing: 0.5px;
+}
+
+.body {
+  padding: 18px 20px 20px;
+}
+
+.name {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.02rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: var(--text-dark);
+}
+
+.desc {
+  font-size: 0.8rem;
+  color: var(--text-mid);
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.rating {
+  margin-bottom: 4px;
+}
+
+.stars {
+  color: var(--gold);
+  font-size: 0.88rem;
+  letter-spacing: 1px;
+}
+
+.count {
+  font-size: 0.76rem;
+  color: var(--text-light);
+  margin-left: 5px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--green-700);
+}
+
+.price sub {
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+
+.detailBtn {
+  background: var(--green-100);
+  color: var(--green-700);
+  border: none;
+  padding: 7px 16px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.detailBtn:hover {
+  background: var(--green-500);
+  color: white;
+}

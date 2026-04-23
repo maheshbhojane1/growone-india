@@ -1,0 +1,47 @@
+.filterBar {
+  padding: 24px 5% 0;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  background: var(--cream);
+}
+
+.filterBtn {
+  background: var(--white);
+  border: 1.5px solid var(--green-200);
+  color: var(--text-mid);
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 0.84rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.filterBtn:hover {
+  border-color: var(--green-500);
+  color: var(--green-600);
+}
+
+.filterActive {
+  background: var(--green-500) !important;
+  border-color: var(--green-500) !important;
+  color: white !important;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  padding: 40px 5% 80px;
+  background: var(--cream);
+}
+
+@media (max-width: 900px) {
+  .grid { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 600px) {
+  .grid { grid-template-columns: 1fr; }
+}
