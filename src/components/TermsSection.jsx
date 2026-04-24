@@ -7,8 +7,8 @@ const TERMS = [
     title: 'Purchase & Ordering',
     items: [
       'All orders are subject to product availability and confirmation via WhatsApp/email within 24 hours.',
-      'Prices are inclusive of GST (18%). Freight charges apply for orders below ₹2,000.',
-      'Bulk orders (above 100 kg) require advance payment of 30%.',
+      'Prices are inclusive of GST. Freight charges apply for orders.',
+      'Bulk orders require advance payment.',
       'GrowOne India reserves the right to cancel fraudulent or suspicious orders.',
       'Seasonal pricing may vary without prior notice; offers are time-limited.',
     ],
@@ -18,7 +18,7 @@ const TERMS = [
     title: 'Shipping & Delivery',
     items: [
       'Delivery timelines: 2–5 business days for Maharashtra; 5–9 days for other states.',
-      'Free shipping on orders above ₹3,500 (within India only).',
+      'Shipping anywhere in India. Free delivery for orders above ₹5,000 within Maharashtra.',
       'We are not liable for delays caused by acts of nature, strikes, or government restrictions.',
       'Products must be inspected upon delivery. Damage claims must be raised within 48 hours.',
     ],

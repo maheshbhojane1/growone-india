@@ -3,17 +3,17 @@ import { useNavigate } from 'react-router-dom';
 import styles from './About.module.css';
 
 const TIMELINE = [
-  { year: '2012', text: 'Founded in Baramati by Dr. Arvind Kulkarni. First product: SoilRevive Organic.' },
-  { year: '2014', text: 'Received NPOP organic certification. Expanded to 3 districts of Maharashtra.' },
-  { year: '2016', text: 'Launched GoldHarvest NPK range. Crossed ₹1 Crore revenue milestone.' },
-  { year: '2018', text: 'Pan-Maharashtra distribution. Launched Kisan Savings Plan. 10,000 farmers served.' },
-  { year: '2020', text: 'ISO 9001 & 14001 certified. Expanded to Karnataka, MP, and Gujarat.' },
-  { year: '2022', text: 'Won Kisan Ratna Award. Launched WhatsApp Agronomist Helpline. 30,000+ farmers.' },
-  { year: '2024', text: '50,000+ farmers. 12 products. 19 states. ₹38 Crore revenue. Building new R&D lab.' },
+  { year: '2020', text: 'Founded in Baramati by Sagar Tale. First product: SoilRevive Organic.' },
+  { year: '2021', text: 'Received NPOP organic certification. Expanded to 3 districts of Maharashtra.' },
+  { year: '2022', text: 'Launched GoldHarvest NPK range. Crossed ₹1 Crore revenue milestone.' },
+  { year: '2023', text: 'Pan-Maharashtra distribution. Launched Kisan Savings Plan. 10,000 farmers served.' },
+  { year: '2024', text: 'ISO 9001 & 14001 certified. Expanded to Karnataka, MP, and Gujarat.' },
+  { year: '2025', text: 'Won Kisan Ratna Award. Launched WhatsApp Agronomist Helpline. 30,000+ farmers.' },
+  { year: '2026', text: '5,000+ farmers. 30 products. ₹2 Crore revenue. Building new R&D lab.' },
 ];
 
 const TEAM = [
-  { initials: 'AK', color: 'var(--green-600)', name: 'Dr. Arvind Kulkarni', role: 'Founder & CEO', bio: 'PhD in Agronomy (IARI). 22 years in soil science. Recipient of Kisan Ratna Award 2023. Father of two farmers.' },
+  { initials: 'AK', color: 'var(--green-600)', name: 'Sagar Tale', role: 'Founder & CEO', bio: 'PhD in Agronomy (IARI). 22 years in soil science. Recipient of Kisan Ratna Award 2023. Father of two farmers.' },
   { initials: 'SP', color: 'var(--earth-700)', name: 'Sunanda Patil', role: 'COO & Co-Founder', bio: 'MBA (IIM Pune). 16 years in agri supply chain. Built GrowOne\'s distribution network across 19 states.' },
   { initials: 'RM', color: 'var(--green-800)', name: 'Dr. Rajiv More', role: 'Head of R&D', bio: 'MSc Biochemistry + PhD Plant Nutrition. Leads a 40-person R&D team. Filed 6 patents in bio-organic formulation.' },
   { initials: 'PP', color: '#4a8c5c', name: 'Pooja Pawar', role: 'Head of Farmer Relations', bio: 'Former KVK extension officer. Manages our 50,000-farmer community and the WhatsApp Agronomist program.' },
@@ -56,26 +56,26 @@ export default function About() {
               From One <em style={{ fontStyle: 'italic', color: 'var(--green-600)' }}>Farm</em> to Fifty Thousand
             </h2>
             <p className={styles.para}>
-              GrowOne India was born in 2012 in the farms of Baramati, Pune, where our founder{' '}
-              <strong>Dr. Arvind Kulkarni</strong> — an agricultural scientist with a PhD from IARI, New Delhi —
+              GrowOne India was born in 2020 in the farms of Baramati, Pune, where our founder{' '}
+              <strong>Sagar Tale</strong> — an agricultural engineer from IARI, New Delhi —
               watched his own family struggle with degrading soil quality from years of synthetic fertilizer overuse.
             </p>
             <p className={styles.para}>
-              Dr. Kulkarni partnered with local farmers to test bio-organic formulas in real fields. After 3 years of
-              R&amp;D and 47 field trials across 6 districts, GrowOne India was formally incorporated in 2012 with a
+              Sagar Tale partnered with local farmers to test bio-organic formulas in real fields. After 3 years of
+              field trials across 6 districts, GrowOne India was formally incorporated in 2020 with a
               single product — <em>SoilRevive Organic</em> — and a vision to restore Indian soil to its natural fertility.
             </p>
             <p className={styles.para}>
-              Today, GrowOne India serves over 50,000 farmers across 19 states, employs 280+ people (85% from farming
-              communities), and runs 3 manufacturing units certified to ISO and NPOP standards. Our R&amp;D centre in Pune
-              houses 40+ agronomists working every day on the next generation of sustainable farm inputs.
+              Today, GrowOne India serves over 5000 farmers across Maharashtra, employs 5+ people (100% from farming
+              communities), and runs 2 manufacturing units certified to ISO and NPOP standards. Our R&amp;D centre in Pune
+              houses agronomists working every day on the next generation of sustainable farm inputs.
             </p>
           </div>
 
           <div>
             <div className="section-tag">Our Journey</div>
             <h2 className="section-title" style={{ marginBottom: 28 }}>
-              12 Years of <em style={{ fontStyle: 'italic', color: 'var(--green-600)' }}>Growth</em>
+              6 Years of <em style={{ fontStyle: 'italic', color: 'var(--green-600)' }}>Growth</em>
             </h2>
             <div className={styles.timeline}>
               {TIMELINE.map((t) => (

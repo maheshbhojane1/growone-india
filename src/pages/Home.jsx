@@ -7,6 +7,8 @@ import NotifySection from '../components/NotifySection';
 import TermsSection from '../components/TermsSection';
 import products from '../data/products';
 import styles from './Home.module.css';
+import logoWhite from '../assets/logo-white.svg';
+
 
 /* ── About Preview ─────────────────────────────── */
 function AboutPreview() {
@@ -15,28 +17,33 @@ function AboutPreview() {
     <section className={styles.aboutSection} id="about-preview">
       <div className={styles.aboutGrid}>
         <div className={styles.aboutImgWrap}>
-          <div className={styles.aboutImgBox}>🌱</div>
+          <div className={styles.aboutImgBox}> 
+            <img src={logoWhite} alt="GrowOne India" style={{ height: '42px', width: 'auto' }} />
+
+          </div>
           <div className={styles.aboutFloatTag}>🏆 Kisan Ratna<br />Award 2023</div>
         </div>
         <div>
-          <div className="section-tag">About Us</div>
+          {/* <div className="section-tag">About Us</div> */}
           <h2 className="section-title">
             Born from the <em style={{ fontStyle: 'italic', color: 'var(--green-600)' }}>Heart</em> of Indian Farming
           </h2>
           <p className={styles.aboutPara}>
-            Founded in 2012 in Pune, GrowOne India started with a simple belief —{' '}
+            Founded in 2020 in Pune, GrowOne India started with a simple belief —{' '}
             <strong>every Indian farmer deserves world-class nutrition for their crops without breaking the bank.</strong>{' '}
             We blend traditional Indian agro-wisdom with modern biotechnology.
           </p>
           <p className={styles.aboutParaSm}>
-            Our R&amp;D team of 40+ agronomists has developed formulas that work with India's diverse soil — from
+            Our team has developed formulas that work with India's diverse soil — from
             the black cotton soil of Vidarbha to the red laterite of Karnataka. We are not just a fertilizer
-            company; we are <em>partners in your harvest.</em>
+            company; we are <em>partners in your harvest.</em> <br /> 
+      
+             Our mission is to promote sustainable farming by offering eco-friendly products that help farmers improve productivity while maintaining soil health. At GrowOne India, we are committed to contributing toward a future of chemical-free food and environmentally responsible agriculture in India.
           </p>
           <div className={styles.valueGrid}>
             {[
               ['🌿 Organic First', 'Zero synthetic chemicals. Pure bio-nutrition that heals the soil.'],
-              ['💡 Research-Driven', '40+ in-house agronomists continuously refining our formulas.'],
+              ['💡 Research-Driven', 'In-house agronomists continuously refining our formulas.'],
               ['🤝 Farmer-First', 'Affordable pricing, bulk discounts, and crop-specific advice.'],
               ['🌍 Planet Care', 'Reducing chemical runoff, protecting groundwater & biodiversity.'],
             ].map(([title, text]) => (

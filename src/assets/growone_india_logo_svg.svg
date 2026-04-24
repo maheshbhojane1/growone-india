@@ -1,0 +1,87 @@
+<svg width="100%" viewBox="0 0 690 420" role="img" xmlns="http://www.w3.org/2000/svg" style="">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">GrowOne India Logo</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">GrowOne India brand logo variations in SVG format</desc>
+
+  <defs>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a9e8e;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0f7a6e;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#38a663;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#256b3e;stop-opacity:1"/>
+    </linearGradient>
+  <mask id="imagine-text-gaps-ipaznq" maskUnits="userSpaceOnUse"><rect x="0" y="0" width="690" height="420" fill="white"/><rect x="41.677085876464844" y="18" width="76.64583587646484" height="16.22222328186035" fill="black" rx="2"/><rect x="247.15452575683594" y="18" width="105.69097900390625" height="16.22222328186035" fill="black" rx="2"/><rect x="508.4739990234375" y="18" width="103.05208587646484" height="16.22222328186035" fill="black" rx="2"/><rect x="58.000003814697266" y="69.44444274902344" width="49.11111831665039" height="60.66666793823242" fill="black" rx="2"/><rect x="95" y="69.44444274902344" width="30.291667938232422" height="60.66666793823242" fill="black" rx="2"/><rect x="189" y="64.55554962158203" width="39.11111259460449" height="46.222225189208984" fill="black" rx="2"/><rect x="216.00001525878906" y="64.55554962158203" width="24.94444465637207" height="46.222225189208984" fill="black" rx="2"/><rect x="254" y="61" width="182.15919494628906" height="28.444446563720703" fill="black" rx="2"/><rect x="256" y="92.11111450195312" width="262.9305725097656" height="15.111111640930176" fill="black" rx="2"/><rect x="450" y="67.66666412353516" width="38.00000190734863" height="45.111114501953125" fill="black" rx="2"/><rect x="475" y="67.66666412353516" width="24.05902862548828" height="45.111114501953125" fill="black" rx="2"/><rect x="512" y="61.11111068725586" width="166.50155639648438" height="27.33333396911621" fill="black" rx="2"/><rect x="503.260009765625" y="91.22222137451172" width="180.69097900390625" height="14" fill="black" rx="2"/><rect x="270.1059265136719" y="173.00001525878906" width="139.7882080078125" height="16.22222328186035" fill="black" rx="2"/><rect x="292" y="216.88890075683594" width="53.55555725097656" height="67.33333587646484" fill="black" rx="2"/><rect x="331.0000305175781" y="216.88890075683594" width="32.96527862548828" height="67.33333587646484" fill="black" rx="2"/><rect x="241.1215362548828" y="310.7778015136719" width="199.0093536376953" height="31.77777862548828" fill="black" rx="2"/><rect x="208.53472900390625" y="345.1111145019531" width="262.9305725097656" height="15.111111640930176" fill="black" rx="2"/><rect x="25.02777862548828" y="373.0000305175781" width="110.00643157958984" height="16.22222328186035" fill="black" rx="2"/></mask></defs>
+
+  
+
+  <!-- ── Label row ── -->
+  <text x="80" y="30" text-anchor="middle" style="fill:rgb(136, 136, 136);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;DM Sans&quot;, sans-serif;font-size:11px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Icon only</text>
+  <text x="300" y="30" text-anchor="middle" style="fill:rgb(136, 136, 136);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;DM Sans&quot;, sans-serif;font-size:11px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Light version</text>
+  <text x="560" y="30" text-anchor="middle" style="fill:rgb(136, 136, 136);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;DM Sans&quot;, sans-serif;font-size:11px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Dark version</text>
+
+  <!-- ═══════════════════════════
+       1. ICON ONLY (left)
+  ════════════════════════════ -->
+  <!-- Outer square with rounded corners -->
+  <rect x="30" y="50" width="100" height="100" rx="14" fill="url(#tealGrad)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- White border inset -->
+  <rect x="40" y="60" width="80" height="80" rx="9" fill="none" stroke="white" stroke-width="3.5" style="fill:none;stroke:rgb(255, 255, 255);color:rgb(255, 255, 255);stroke-width:3.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- G letter -->
+  <text x="62" y="117" font-size="50" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, &quot;Times New Roman&quot;, serif;font-size:50px;font-weight:700;text-anchor:start;dominant-baseline:auto">G</text>
+  <!-- I letter -->
+  <text x="99" y="117" font-size="50" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, &quot;Times New Roman&quot;, serif;font-size:50px;font-weight:700;text-anchor:start;dominant-baseline:auto">I</text>
+
+  <!-- ═══════════════════════════
+       2. HORIZONTAL — LIGHT BG
+  ════════════════════════════ -->
+  <!-- Icon -->
+  <rect x="170" y="50" width="76" height="76" rx="11" fill="url(#tealGrad)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="178" y="58" width="60" height="60" rx="7" fill="none" stroke="white" stroke-width="2.5" style="fill:none;stroke:rgb(255, 255, 255);color:rgb(255, 255, 255);stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="193" y="101" font-size="38" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, &quot;Times New Roman&quot;, serif;font-size:38px;font-weight:700;text-anchor:start;dominant-baseline:auto">G</text>
+  <text x="220" y="101" font-size="38" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, &quot;Times New Roman&quot;, serif;font-size:38px;font-weight:700;text-anchor:start;dominant-baseline:auto">I</text>
+  <!-- Text -->
+  <text x="258" y="83" font-size="22" style="fill:rgb(26, 74, 46);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, serif;font-size:22px;font-weight:700;text-anchor:start;dominant-baseline:auto">GrowOne India</text>
+  <text x="260" y="103" font-size="10" style="fill:rgb(56, 166, 99);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;DM Sans&quot;, sans-serif;font-size:10px;font-weight:400;text-anchor:start;dominant-baseline:auto">NOURISH THE SOIL, FEED THE NATION</text>
+
+  <!-- ═══════════════════════════
+       3. HORIZONTAL — DARK BG
+  ════════════════════════════ -->
+  <!-- Dark bg pill -->
+  <rect x="420" y="44" width="230" height="94" rx="14" fill="#0d2e1a" style="fill:rgb(13, 46, 26);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Icon -->
+  <rect x="434" y="56" width="70" height="70" rx="10" fill="url(#tealGrad)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="441" y="63" width="56" height="56" rx="7" fill="none" stroke="white" stroke-width="2.5" style="fill:none;stroke:rgb(255, 255, 255);color:rgb(255, 255, 255);stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="454" y="103" font-size="36" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, &quot;Times New Roman&quot;, serif;font-size:36px;font-weight:700;text-anchor:start;dominant-baseline:auto">G</text>
+  <text x="479" y="103" font-size="36" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, &quot;Times New Roman&quot;, serif;font-size:36px;font-weight:700;text-anchor:start;dominant-baseline:auto">I</text>
+  <!-- Text -->
+  <text x="516" y="82" font-size="20" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, serif;font-size:20px;font-weight:700;text-anchor:start;dominant-baseline:auto">GrowOne India</text>
+  <text x="507.26" y="101" font-size="9" style="fill:rgb(147, 217, 170);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;DM Sans&quot;, sans-serif;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto">NOURISH · GROW · SUSTAIN</text>
+
+  <!-- ═══════════════════════════
+       4. STACKED / VERTICAL (centered, below)
+  ════════════════════════════ -->
+  <text x="340" y="185" text-anchor="middle" style="fill:rgb(136, 136, 136);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;DM Sans&quot;, sans-serif;font-size:11px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Stacked / vertical</text>
+
+  <!-- Icon centered -->
+  <rect x="265" y="200" width="110" height="110" rx="16" fill="url(#tealGrad)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="276" y="211" width="88" height="88" rx="10" fill="none" stroke="white" stroke-width="3.5" style="fill:none;stroke:rgb(255, 255, 255);color:rgb(255, 255, 255);stroke-width:3.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="296" y="270" font-size="56" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, &quot;Times New Roman&quot;, serif;font-size:56px;font-weight:700;text-anchor:start;dominant-baseline:auto">G</text>
+  <text x="335" y="270" font-size="56" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, &quot;Times New Roman&quot;, serif;font-size:56px;font-weight:700;text-anchor:start;dominant-baseline:auto">I</text>
+
+  <!-- Brand name below icon -->
+  <text x="340" y="335" font-size="24" text-anchor="middle" style="fill:rgb(26, 74, 46);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, serif;font-size:24px;font-weight:700;text-anchor:middle;dominant-baseline:auto">GrowOne India</text>
+  <text x="340" y="356" font-size="10" text-anchor="middle" style="fill:rgb(56, 166, 99);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;DM Sans&quot;, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto">NOURISH THE SOIL, FEED THE NATION</text>
+
+  <!-- Small leaf accent lines -->
+  <line x1="195" y1="356" x2="270" y2="356" stroke="#c5ecd4" stroke-width="1" mask="url(#imagine-text-gaps-ipaznq)" style="fill:rgb(0, 0, 0);stroke:rgb(197, 236, 212);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="410" y1="356" x2="485" y2="356" stroke="#c5ecd4" stroke-width="1" mask="url(#imagine-text-gaps-ipaznq)" style="fill:rgb(0, 0, 0);stroke:rgb(197, 236, 212);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="340" cy="356" r="3" fill="#38a663" style="fill:rgb(56, 166, 99);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- ═══════════════════════════
+       5. ICON only — GREEN variant (bottom left)
+  ════════════════════════════ -->
+  <text x="80" y="385" text-anchor="middle" style="fill:rgb(136, 136, 136);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;DM Sans&quot;, sans-serif;font-size:11px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Green variant</text>
+  <rect x="30" y="390" width="0" height="0" rx="0" fill="none" style="fill:none;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+</svg>

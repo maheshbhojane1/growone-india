@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" role="img" aria-label="GrowOne India icon">
+  <title>GrowOne India Icon</title>
+  <defs>
+    <linearGradient id="gi-teal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a9e8e"/>
+      <stop offset="100%" style="stop-color:#0f7a6e"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="60" height="60" rx="10" fill="url(#gi-teal)"/>
+  <rect x="6" y="6" width="48" height="48" rx="6" fill="none" stroke="white" stroke-width="2.8"/>
+  <text x="10" y="45" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="33" fill="white">G</text>
+  <text x="34" y="45" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="33" fill="white">I</text>
+</svg>

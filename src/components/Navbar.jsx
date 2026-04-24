@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import styles from './Navbar.module.css';
+import logoWhite from '../assets/logo-white.svg';
+
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -34,13 +36,12 @@ export default function Navbar() {
   return (
     <nav className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`}>
       <Link to="/" className={styles.logo}>
-        <div className={styles.logoIcon}> <a href="./assets/logo.png"></a></div>
-
-        <div className={styles.logoText}>
-          GrowOne India
-          <span>Est. 2012 · Pune, Maharashtra</span>
-        </div>
-      </Link>
+  <img 
+    src={logoWhite} 
+    alt="GrowOne India" 
+    style={{ height: '42px', width: 'auto' }} 
+  />
+</Link>
 
       <div className={`${styles.links} ${menuOpen ? styles.open : ''}`}>
         <Link to="/products" className={styles.link}>Products</Link>

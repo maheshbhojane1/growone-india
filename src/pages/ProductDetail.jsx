@@ -61,12 +61,12 @@ export default function ProductDetail() {
           {/* Right column */}
           <div>
             <div className={styles.stars}>{stars}</div>
-            <div className={styles.ratingCount}>
+            {/* <div className={styles.ratingCount}>
               {product.rating}/5 ({product.reviews.toLocaleString('en-IN')} reviews)
             </div>
             <div className={styles.price}>
               {product.price} <sub>/ {product.unit}</sub>
-            </div>
+            </div> */}
 
             {/* Tabs */}
             <div className={styles.tabs}>
