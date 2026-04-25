@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-label="GrowOne India stacked vertical logo">
+  <title>GrowOne India – Stacked Version</title>
+  <defs>
+    <linearGradient id="teal4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a9e8e"/>
+      <stop offset="100%" stop-color="#0f7a6e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon Square centered -->
+  <rect x="60" y="0" width="80" height="80" rx="14" fill="url(#teal4)"/>
+  <!-- White inset border -->
+  <rect x="69" y="9" width="62" height="62" rx="8" fill="none" stroke="white" stroke-width="3.2"/>
+  <!-- G letter -->
+  <text x="74" y="62" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="46" fill="white">G</text>
+  <!-- I letter -->
+  <text x="112" y="62" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="46" fill="white">I</text>
+
+  <!-- Brand name centered below icon -->
+  <text x="100" y="106" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="18" fill="white" text-anchor="middle">GrowOne India</text>
+
+  <!-- Decorative line left -->
+  <line x1="10" y1="118" x2="72" y2="118" stroke="#c5ecd4" stroke-width="1.2"/>
+  <!-- Dot center -->
+  <circle cx="100" cy="118" r="3.5" fill="white"/>
+  <!-- Decorative line right -->
+  <line x1="128" y1="118" x2="190" y2="118" stroke="#c5ecd4" stroke-width="1.2"/>
+
+  
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 64" role="img" aria-label="GrowOne India logo dark version for light backgrounds">
+  <title>GrowOne India – Dark Version</title>
+  <defs>
+    <linearGradient id="teal2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a9e8e"/>
+      <stop offset="100%" stop-color="#0f7a6e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon Square -->
+  <rect x="0" y="2" width="60" height="60" rx="10" fill="url(#teal2)"/>
+  <rect x="7" y="9" width="46" height="46" rx="6" fill="none" stroke="white" stroke-width="2.8"/>
+  <text x="11" y="47" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="34" fill="white">G</text>
+  <text x="36" y="47" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="34" fill="white">I</text>
+
+  <!-- Brand Name Dark Green -->
+  <text x="74" y="28" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="20" fill="#1a4a2e">GrowOne India</text>
+  <!-- Tagline Green -->
+  <text x="75" y="46" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#2e8a50" letter-spacing="1.8">NOURISH THE SOIL, FEED THE NATION</text>
+  <!-- Est line -->
+  <text x="75" y="59" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="400" fill="#8a9ab0" letter-spacing="1.2">EST. 2012 · PUNE, MAHARASHTRA</text>
+</svg>

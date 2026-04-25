@@ -1,13 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" role="img" aria-label="GrowOne India icon">
-  <title>GrowOne India Icon</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 64" role="img" aria-label="GrowOne India logo white version for dark backgrounds">
+  <title>GrowOne India – White Version</title>
   <defs>
-    <linearGradient id="gi-teal" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1a9e8e"/>
-      <stop offset="100%" style="stop-color:#0f7a6e"/>
+    <linearGradient id="teal1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a9e8e"/>
+      <stop offset="100%" stop-color="#0f7a6e"/>
     </linearGradient>
   </defs>
-  <rect x="0" y="0" width="60" height="60" rx="10" fill="url(#gi-teal)"/>
-  <rect x="6" y="6" width="48" height="48" rx="6" fill="none" stroke="white" stroke-width="2.8"/>
-  <text x="10" y="45" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="33" fill="white">G</text>
-  <text x="34" y="45" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="33" fill="white">I</text>
+
+  <!-- Icon Square -->
+  <rect x="0" y="2" width="60" height="60" rx="10" fill="url(#teal1)"/>
+  <rect x="7" y="9" width="46" height="46" rx="6" fill="none" stroke="white" stroke-width="2.8"/>
+  <text x="11" y="47" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="34" fill="white">G</text>
+  <text x="36" y="47" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="34" fill="white">I</text>
+
+  <!-- Brand Name White -->
+  <text x="74" y="28" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="20" fill="#ffffff">GrowOne India</text>
+  <!-- Tagline -->
+  <!-- Est line -->
+  <text x="75" y="59" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="400" fill="rgba(255,255,255,0.45)" letter-spacing="1.2">EST. 2020 · PUNE, MAHARASHTRA</text>
 </svg>

@@ -7,7 +7,8 @@ import NotifySection from '../components/NotifySection';
 import TermsSection from '../components/TermsSection';
 import products from '../data/products';
 import styles from './Home.module.css';
-import logoWhite from '../assets/logo-white.svg';
+import p1  from '../assets/id_1.png';
+
 
 
 /* ── About Preview ─────────────────────────────── */
@@ -17,11 +18,8 @@ function AboutPreview() {
     <section className={styles.aboutSection} id="about-preview">
       <div className={styles.aboutGrid}>
         <div className={styles.aboutImgWrap}>
-          <div className={styles.aboutImgBox}> 
-            <img src={logoWhite} alt="GrowOne India" style={{ height: '42px', width: 'auto' }} />
-
-          </div>
-          <div className={styles.aboutFloatTag}>🏆 Kisan Ratna<br />Award 2023</div>
+          <div className={styles.aboutImgBox}>🌱</div>
+          {/* <div className={styles.aboutFloatTag}>🏆 Kisan Ratna<br />Award 2023</div> */}
         </div>
         <div>
           {/* <div className="section-tag">About Us</div> */}

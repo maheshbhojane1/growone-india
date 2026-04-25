@@ -25,7 +25,7 @@ export default function Footer() {
             <div className={styles.logoIcon}>🌱</div>
             <div className={styles.logoText}>
               GrowOne India
-              <span>Est. 2012 · Pune, MH</span>
+              <span>Est. 2020 · Pune, MH</span>
             </div>
           </Link>
           <p>Nourishing Indian farms with science-backed, eco-certified bio-organic fertilizers since 2012. From Pune to the paddy fields of Punjab — we grow with you.</p>
