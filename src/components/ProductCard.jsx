@@ -38,24 +38,26 @@ export default function ProductCard({ product }) {
         <div className={styles.desc}>
           {(product.desc || "").substring(0, 82)}…
         </div>
+        <div className={styles.footer}>
         <div className={styles.rating}>
           <span className={styles.stars}>{stars}</span>
-          {/* <span className={styles.count}>
-            ({product.reviews.toLocaleString("en-IN")})
-          </span> */}
           <span className={styles.count}>
-            ({(product.reviews || 0).toLocaleString("en-IN")})
+            ({product.reviews.toLocaleString("en-IN")})
           </span>
         </div>
-        <div className={styles.footer}>
           {/* <div className={styles.price}>
             {product.price}
             <sub>/{product.unit}</sub>
           </div> */}
-          <div className={styles.price}>
+
+
+          {/* <div className={styles.price}>
             {product.price || "—"}
             <sub>/{product.unit || ""}</sub>
-          </div>
+          </div> */}
+
+          
+
           <button
             className={styles.detailBtn}
             onClick={(e) => {

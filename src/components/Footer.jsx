@@ -66,7 +66,7 @@ export default function Footer() {
       </div>
 
       <div className={styles.bottom}>
-        <span>© 2025 GrowOne India Pvt. Ltd. All rights reserved. | CIN: U01111MH2012PTC234567</span>
+        <span>© 2026 GrowOne India Pvt. Ltd. All rights reserved. | CIN: </span>
         <span>Made with 🌱 in Pune, India</span>
       </div>
     </footer>

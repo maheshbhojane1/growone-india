@@ -17,7 +17,7 @@ export default function HeroSection() {
       <div className={styles.content}>
         <div className={styles.badge}>
           <span className={styles.badgeDot}></span>
-          Trusted by 50,000+ Farmers Across India
+          Trusted by 5000+ Farmers Across India
         </div>
 
         <h1 className={styles.heading}>
@@ -40,15 +40,15 @@ export default function HeroSection() {
 
         <div className={styles.stats}>
           <div className={styles.stat}>
-            <div className={styles.statNum}>50K+</div>
+            <div className={styles.statNum}>5000</div>
             <div className={styles.statLbl}>Active Farmers</div>
           </div>
           <div className={styles.stat}>
-            <div className={styles.statNum}>18</div>
+            <div className={styles.statNum}>14</div>
             <div className={styles.statLbl}>Product Range</div>
           </div>
           <div className={styles.stat}>
-            <div className={styles.statNum}>12+</div>
+            <div className={styles.statNum}>16+</div>
             <div className={styles.statLbl}>Years of Trust</div>
           </div>
           <div className={styles.stat}>
