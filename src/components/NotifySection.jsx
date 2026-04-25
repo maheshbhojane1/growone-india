@@ -22,7 +22,7 @@ export default function NotifySection() {
     const text = encodeURIComponent(
       `Hello GrowOne India! 🌱\n\nName: ${form.name}\nPhone: ${form.phone}\nLocation: ${form.location || 'Not specified'}\nCrop: ${form.crop || 'Not specified'}\n\nMessage: ${form.message || 'Interested in your products!'}`
     );
-    window.open(`https://wa.me/918830407952?text=${text}`, '_blank');
+    window.open(`https://wa.me/919604710208?text=${text}`, '_blank');
     showToast('💬 Opening WhatsApp…');
   };
 
