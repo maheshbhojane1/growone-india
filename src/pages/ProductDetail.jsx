@@ -45,9 +45,26 @@ export default function ProductDetail() {
         <div className={styles.grid}>
           {/* Left column */}
           <div>
-            <div className={styles.imgBox} style={{ background: product.colorBg }}>
+            {/* <div className={styles.imgBox} style={{ background: product.colorBg }}>
               <span className={styles.imgEmoji}>{product.emoji}</span>
-            </div>
+            </div> */}
+            <div className={styles.imgBox}>
+  {product.image ? (
+    <img
+      src={product.image}
+      alt={product.name}
+      style={{
+        width: '100%',
+        height: '100%',
+        objectFit: 'contain',
+        padding: '16px',
+        borderRadius: '20px',
+      }}
+    />
+  ) : (
+    <span style={{ fontSize: '9rem' }}>{product.emoji}</span>
+  )}
+</div>
             <div className={styles.glanceBox}>
               <div className={styles.glanceTitle}>At a Glance</div>
               <div className={styles.glanceGrid}>
